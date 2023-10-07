@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A42F13E2ACE9A19008D6A5A /* Api_Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42F13D2ACE9A19008D6A5A /* Api_Constant.swift */; };
+		4A42F1402ACE9B13008D6A5A /* Api_service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42F13F2ACE9B13008D6A5A /* Api_service.swift */; };
+		4A42F1432ACE9DB3008D6A5A /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42F1422ACE9DB3008D6A5A /* PlanetModel.swift */; };
+		4A42F1452ACEA63B008D6A5A /* Home_Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42F1442ACEA63B008D6A5A /* Home_Api.swift */; };
+		4A42F1492ACFBE45008D6A5A /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42F1482ACFBE45008D6A5A /* Buttons.swift */; };
+		4A4429FF2AD0640600438361 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4429FE2AD0640600438361 /* SplashViewController.swift */; };
+		4A442A032AD07CAE00438361 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A442A022AD07CAE00438361 /* WikiViewController.swift */; };
+		4A733AB12AD1102D00D3477F /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A733AB02AD1102D00D3477F /* SideMenu.swift */; };
+		4A733AB42AD1123B00D3477F /* SideMenuTabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A733AB22AD1123B00D3477F /* SideMenuTabelViewController.swift */; };
+		4A733AB52AD1123B00D3477F /* SideMenuTabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A733AB32AD1123B00D3477F /* SideMenuTabelViewController.xib */; };
+		4A733AB72AD116BD00D3477F /* TabelViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A733AB62AD116BD00D3477F /* TabelViewDelegate.swift */; };
+		4A733AB92AD1215E00D3477F /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A733AB82AD1215E00D3477F /* SideMenuModel.swift */; };
+		4A733ABD2AD1457A00D3477F /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A733ABC2AD1457A00D3477F /* AboutMeViewController.swift */; };
+		4A733AC02AD149BB00D3477F /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A733ABF2AD149BB00D3477F /* PrivacyPolicyViewController.swift */; };
+		4A733AC22AD15EAE00D3477F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A733AC12AD15EAE00D3477F /* Assets.xcassets */; };
+		4A7EE9982ACE6DD900F0059A /* DataCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EE9972ACE6DD900F0059A /* DataCard.swift */; };
 		4AE04DB42ACD77E300373D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE04DB32ACD77E300373D03 /* AppDelegate.swift */; };
 		4AE04DB62ACD77E300373D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE04DB52ACD77E300373D03 /* SceneDelegate.swift */; };
 		4AE04DB82ACD77E300373D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE04DB72ACD77E300373D03 /* ViewController.swift */; };
 		4AE04DBB2ACD77E300373D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE04DB92ACD77E300373D03 /* Main.storyboard */; };
-		4AE04DBD2ACD77E300373D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE04DBC2ACD77E300373D03 /* Assets.xcassets */; };
 		4AE04DC02ACD77E300373D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE04DBE2ACD77E300373D03 /* LaunchScreen.storyboard */; };
+		4AE04DC82ACD9C4800373D03 /* appbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE04DC72ACD9C4800373D03 /* appbar.swift */; };
+		DD9834D15D8847EF8A6699D8 /* Pods_planets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930C0668F35ACDDFDB445B99 /* Pods_planets.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FDA646ED129581227745780 /* Pods-planets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planets.release.xcconfig"; path = "Target Support Files/Pods-planets/Pods-planets.release.xcconfig"; sourceTree = "<group>"; };
+		4A42F13D2ACE9A19008D6A5A /* Api_Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_Constant.swift; sourceTree = "<group>"; };
+		4A42F13F2ACE9B13008D6A5A /* Api_service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_service.swift; sourceTree = "<group>"; };
+		4A42F1422ACE9DB3008D6A5A /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
+		4A42F1442ACEA63B008D6A5A /* Home_Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Api.swift; sourceTree = "<group>"; };
+		4A42F1482ACFBE45008D6A5A /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		4A4429FE2AD0640600438361 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4A442A022AD07CAE00438361 /* WikiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
+		4A733AB02AD1102D00D3477F /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		4A733AB22AD1123B00D3477F /* SideMenuTabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTabelViewController.swift; sourceTree = "<group>"; };
+		4A733AB32AD1123B00D3477F /* SideMenuTabelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuTabelViewController.xib; sourceTree = "<group>"; };
+		4A733AB62AD116BD00D3477F /* TabelViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelViewDelegate.swift; sourceTree = "<group>"; };
+		4A733AB82AD1215E00D3477F /* SideMenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
+		4A733ABC2AD1457A00D3477F /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		4A733ABF2AD149BB00D3477F /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		4A733AC12AD15EAE00D3477F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A7EE9972ACE6DD900F0059A /* DataCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCard.swift; sourceTree = "<group>"; };
 		4AE04DB02ACD77E300373D03 /* planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE04DB32ACD77E300373D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AE04DB52ACD77E300373D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4AE04DB72ACD77E300373D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4AE04DBA2ACD77E300373D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4AE04DBC2ACD77E300373D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AE04DBF2ACD77E300373D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AE04DC12ACD77E300373D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE04DC72ACD9C4800373D03 /* appbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appbar.swift; sourceTree = "<group>"; };
+		62D9C80FF92031DD4164D13C /* Pods-planets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planets.debug.xcconfig"; path = "Target Support Files/Pods-planets/Pods-planets.debug.xcconfig"; sourceTree = "<group>"; };
+		930C0668F35ACDDFDB445B99 /* Pods_planets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_planets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,123 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9834D15D8847EF8A6699D8 /* Pods_planets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		415552FF929860452C67C073 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62D9C80FF92031DD4164D13C /* Pods-planets.debug.xcconfig */,
+				1FDA646ED129581227745780 /* Pods-planets.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A42F13C2ACE99F6008D6A5A /* api_service */ = {
+			isa = PBXGroup;
+			children = (
+				4A42F13D2ACE9A19008D6A5A /* Api_Constant.swift */,
+				4A42F13F2ACE9B13008D6A5A /* Api_service.swift */,
+			);
+			path = api_service;
+			sourceTree = "<group>";
+		};
+		4A42F1412ACE9DA1008D6A5A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				4A733AB82AD1215E00D3477F /* SideMenuModel.swift */,
+				4A42F1422ACE9DB3008D6A5A /* PlanetModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		4A4429FD2AD063C800438361 /* splash_view */ = {
+			isa = PBXGroup;
+			children = (
+				4A4429FE2AD0640600438361 /* SplashViewController.swift */,
+			);
+			path = splash_view;
+			sourceTree = "<group>";
+		};
+		4A442A002AD07C8300438361 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A733ABE2AD1499700D3477F /* privacy_policy_View */,
+				4A733ABB2AD1454300D3477F /* about_me_View */,
+				4A733ABA2AD133E200D3477F /* New Group */,
+				4A7B30082AD0875800D78C1C /* drawer_View */,
+				4A442A012AD07C8F00438361 /* wiki_View */,
+				4A7EE9992ACE6F6400F0059A /* home_view */,
+				4A4429FD2AD063C800438361 /* splash_view */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A442A012AD07C8F00438361 /* wiki_View */ = {
+			isa = PBXGroup;
+			children = (
+				4A442A022AD07CAE00438361 /* WikiViewController.swift */,
+			);
+			path = wiki_View;
+			sourceTree = "<group>";
+		};
+		4A733ABA2AD133E200D3477F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4A733ABB2AD1454300D3477F /* about_me_View */ = {
+			isa = PBXGroup;
+			children = (
+				4A733ABC2AD1457A00D3477F /* AboutMeViewController.swift */,
+			);
+			path = about_me_View;
+			sourceTree = "<group>";
+		};
+		4A733ABE2AD1499700D3477F /* privacy_policy_View */ = {
+			isa = PBXGroup;
+			children = (
+				4A733ABF2AD149BB00D3477F /* PrivacyPolicyViewController.swift */,
+			);
+			path = privacy_policy_View;
+			sourceTree = "<group>";
+		};
+		4A7B30082AD0875800D78C1C /* drawer_View */ = {
+			isa = PBXGroup;
+			children = (
+				4A733AB22AD1123B00D3477F /* SideMenuTabelViewController.swift */,
+				4A733AB32AD1123B00D3477F /* SideMenuTabelViewController.xib */,
+				4A733AB62AD116BD00D3477F /* TabelViewDelegate.swift */,
+			);
+			path = drawer_View;
+			sourceTree = "<group>";
+		};
+		4A7EE9992ACE6F6400F0059A /* home_view */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EE9972ACE6DD900F0059A /* DataCard.swift */,
+				4AE04DC72ACD9C4800373D03 /* appbar.swift */,
+				4AE04DB72ACD77E300373D03 /* ViewController.swift */,
+				4A42F1442ACEA63B008D6A5A /* Home_Api.swift */,
+				4A42F1482ACFBE45008D6A5A /* Buttons.swift */,
+				4A733AB02AD1102D00D3477F /* SideMenu.swift */,
+			);
+			path = home_view;
+			sourceTree = "<group>";
+		};
 		4AE04DA72ACD77E300373D03 = {
 			isa = PBXGroup;
 			children = (
 				4AE04DB22ACD77E300373D03 /* planets */,
 				4AE04DB12ACD77E300373D03 /* Products */,
+				415552FF929860452C67C073 /* Pods */,
+				5978787FE66B14678ABEACC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +198,25 @@
 		4AE04DB22ACD77E300373D03 /* planets */ = {
 			isa = PBXGroup;
 			children = (
+				4A442A002AD07C8300438361 /* Views */,
+				4A42F1412ACE9DA1008D6A5A /* models */,
+				4A42F13C2ACE99F6008D6A5A /* api_service */,
 				4AE04DB32ACD77E300373D03 /* AppDelegate.swift */,
 				4AE04DB52ACD77E300373D03 /* SceneDelegate.swift */,
-				4AE04DB72ACD77E300373D03 /* ViewController.swift */,
+				4A733AC12AD15EAE00D3477F /* Assets.xcassets */,
 				4AE04DB92ACD77E300373D03 /* Main.storyboard */,
-				4AE04DBC2ACD77E300373D03 /* Assets.xcassets */,
 				4AE04DBE2ACD77E300373D03 /* LaunchScreen.storyboard */,
 				4AE04DC12ACD77E300373D03 /* Info.plist */,
 			);
 			path = planets;
+			sourceTree = "<group>";
+		};
+		5978787FE66B14678ABEACC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				930C0668F35ACDDFDB445B99 /* Pods_planets.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AE04DC42ACD77E300373D03 /* Build configuration list for PBXNativeTarget "planets" */;
 			buildPhases = (
+				40A87414028971C76AB1629C /* [CP] Check Pods Manifest.lock */,
 				4AE04DAC2ACD77E300373D03 /* Sources */,
 				4AE04DAD2ACD77E300373D03 /* Frameworks */,
 				4AE04DAE2ACD77E300373D03 /* Resources */,
+				51B097AABE7F2A52F987E6A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +280,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AE04DC02ACD77E300373D03 /* LaunchScreen.storyboard in Resources */,
-				4AE04DBD2ACD77E300373D03 /* Assets.xcassets in Resources */,
+				4A733AB52AD1123B00D3477F /* SideMenuTabelViewController.xib in Resources */,
+				4A733AC22AD15EAE00D3477F /* Assets.xcassets in Resources */,
 				4AE04DBB2ACD77E300373D03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40A87414028971C76AB1629C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-planets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51B097AABE7F2A52F987E6A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-planets/Pods-planets-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-planets/Pods-planets-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-planets/Pods-planets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AE04DAC2ACD77E300373D03 /* Sources */ = {
@@ -139,8 +336,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AE04DB82ACD77E300373D03 /* ViewController.swift in Sources */,
+				4A733AB42AD1123B00D3477F /* SideMenuTabelViewController.swift in Sources */,
+				4A42F1432ACE9DB3008D6A5A /* PlanetModel.swift in Sources */,
+				4AE04DC82ACD9C4800373D03 /* appbar.swift in Sources */,
+				4A733AB12AD1102D00D3477F /* SideMenu.swift in Sources */,
+				4A42F13E2ACE9A19008D6A5A /* Api_Constant.swift in Sources */,
 				4AE04DB42ACD77E300373D03 /* AppDelegate.swift in Sources */,
+				4A42F1492ACFBE45008D6A5A /* Buttons.swift in Sources */,
+				4A733ABD2AD1457A00D3477F /* AboutMeViewController.swift in Sources */,
+				4A7EE9982ACE6DD900F0059A /* DataCard.swift in Sources */,
+				4A733AB92AD1215E00D3477F /* SideMenuModel.swift in Sources */,
+				4A42F1402ACE9B13008D6A5A /* Api_service.swift in Sources */,
+				4A733AB72AD116BD00D3477F /* TabelViewDelegate.swift in Sources */,
 				4AE04DB62ACD77E300373D03 /* SceneDelegate.swift in Sources */,
+				4A42F1452ACEA63B008D6A5A /* Home_Api.swift in Sources */,
+				4A733AC02AD149BB00D3477F /* PrivacyPolicyViewController.swift in Sources */,
+				4A442A032AD07CAE00438361 /* WikiViewController.swift in Sources */,
+				4A4429FF2AD0640600438361 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +494,7 @@
 		};
 		4AE04DC52ACD77E300373D03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D9C80FF92031DD4164D13C /* Pods-planets.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,18 +503,21 @@
 				DEVELOPMENT_TEAM = QT74HMWV3J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = planets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cosmic Journey";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.saw.planets;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = planets;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,6 +526,7 @@
 		};
 		4AE04DC62ACD77E300373D03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FDA646ED129581227745780 /* Pods-planets.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +535,11 @@
 				DEVELOPMENT_TEAM = QT74HMWV3J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = planets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cosmic Journey";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +547,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.saw.planets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
